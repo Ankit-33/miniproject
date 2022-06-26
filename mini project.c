@@ -28,7 +28,7 @@ int main()
 
       fprintf(fptr,"Student %d:\nName: %s \nMarks :%d \n ", i+1, name, marks);
         
-         if(marks>50 && marks<=100){
+         if(marks>=50 && marks<=100){
           fprintf(fptr,"RESULT:PASS\n\n");
       }  
       else if(marks>100 || marks<0){
